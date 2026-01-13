@@ -1,0 +1,2 @@
+# NoBossBarMod
+Disables BossBar

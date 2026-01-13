@@ -1,0 +1,24 @@
+{
+  "schemaVersion": 1,
+  "id": "nobossbarmod",
+  "version": "${version}",
+  "name": "NoBossBarMod",
+  "description": "Removes fog rendering in the game",
+  "authors": [],
+  "contact": {},
+  "license": "All-Rights-Reserved",
+  "environment": "client",
+  "entrypoints": {
+    "main": [
+      "org.dev.nobossbarmod.NoBossBarMod"
+    ]
+  },
+  "mixins": [
+    "nobossbarmod.mixins.json"
+  ],
+  "depends": {
+    "fabricloader": ">=${loader_version}",
+    "fabric-api": "*",
+    "minecraft": "${minecraft_version}"
+  }
+}
